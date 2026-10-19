@@ -1,0 +1,16 @@
+done 0..65536 e=0 init=0 hits=0
+done 0..65536 e=0 init=1 hits=0
+done 0..65536 e=0 init=1 hits=0
+done 0..65536 e=0 init=0 hits=0
+done 0..65536 e=1 init=1 hits=0
+done 0..65536 e=1 init=0 hits=0
+done 0..65536 e=1 init=1 hits=0
+done 0..65536 e=1 init=0 hits=0
+done 0..65536 e=2 init=0 hits=0
+done 0..65536 e=2 init=1 hits=128
+done 0..65536 e=2 init=0 hits=0
+done 0..65536 e=2 init=1 hits=0
+done 0..65536 e=3 init=0 hits=0
+done 0..65536 e=3 init=1 hits=0
+done 0..65536 e=3 init=1 hits=0
+done 0..65536 e=3 init=0 hits=0

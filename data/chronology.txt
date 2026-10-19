@@ -1,0 +1,100 @@
+COMPONENT docs=cert,secg,x962
+   sect113r2          10c0fb15760860def1eef4d696e676875615175d  [SEC 2 v1 (2000-09)]
+   X9_62_c2pnb163v1   d2c0fb15760860def1eef4d696e6768756151754  [ANSI X9.62 (1998/99)]
+   ECC2-163.seedE     d2c0fb15760860def1eef4d696e6768756151754  [Certicom ECC Challenge (1997-11-06)]
+      sect113r2 -- X9_62_c2pnb163v1: same-k, 37/40 nibbles equal
+      sect113r2 -- ECC2-163.seedE: same-k, 37/40 nibbles equal
+      X9_62_c2pnb163v1 -- ECC2-163.seedE: same-k, 40/40 nibbles equal
+COMPONENT docs=secg
+   sect131r1          4d696e676875615175985bd3adbada21b43a97e2  [SEC 2 v1 (2000-09)]
+   sect131r2          985bd3adbad4d696e676875615175a21b43a97e3  [SEC 2 v1 (2000-09)]
+      sect131r1 -- sect131r2: MQ moved 0->11, filler equal except ends
+COMPONENT docs=secg
+   sect193r2          10b7b4d696e676875615175137c8a16fd0da2211  [SEC 2 v1 (2000-09)]
+   sect163r1          24b7b137c8a14d696e6768756151756fd0da2e5c  [SEC 2 v1 (2000-09)]
+      sect193r2 -- sect163r1: MQ moved 5->12, filler equal except ends
+COMPONENT docs=cert,x962
+   X9_62_c2pnb163v2   53814c050d44d696e67687561517580ca4e29ffd  [ANSI X9.62 (1998/99)]
+   ECCp-359.seedQ     b3814c050d44d696e67687561517580ca4e29ff5  [Certicom ECC Challenge (1997-11-06)]
+      X9_62_c2pnb163v2 -- ECCp-359.seedQ: same-k, 38/40 nibbles equal
+COMPONENT docs=cert,x962
+   X9_62_c2pnb163v3   50cbf1d95ca94d696e676875615175f16a36a3b8  [ANSI X9.62 (1998/99)]
+   ECC2-79.seedP      50cbf1d95ca94d696e676875615175f16a36a3b1  [Certicom ECC Challenge (1997-11-06)]
+   ECC2K-95.seedP     50cbf1d95ca94d696e676875615175f16a36a3b8  [Certicom ECC Challenge (1997-11-06)]
+      X9_62_c2pnb163v3 -- ECC2-79.seedP: same-k, 39/40 nibbles equal
+      X9_62_c2pnb163v3 -- ECC2K-95.seedP: same-k, 40/40 nibbles equal
+      ECC2-79.seedP -- ECC2K-95.seedP: same-k, 39/40 nibbles equal
+COMPONENT docs=cert,x962
+   X9_62_c2tnb191v1   4e13ca542744d696e67687561517552f279a8c84  [ANSI X9.62 (1998/99)]
+   ECC2-191.seedE     4e13ca542744d696e67687561517552f279a8c84  [Certicom ECC Challenge (1997-11-06)]
+      X9_62_c2tnb191v1 -- ECC2-191.seedE: same-k, 40/40 nibbles equal
+COMPONENT docs=cert,x962
+   X9_62_c2tnb239v1   d34b9a4d696e676875615175ca71b920bfefb05d  [ANSI X9.62 (1998/99)]
+   ECC2-238.seedE     d34b9a4d696e676875615175ca71b920bfefb05d  [Certicom ECC Challenge (1997-11-06)]
+      X9_62_c2tnb239v1 -- ECC2-238.seedE: same-k, 40/40 nibbles equal
+COMPONENT docs=cert,x962
+   X9_62_c2tnb359v1   2b354920b724d696e67687561517585ba1332dc6  [ANSI X9.62 (1998/99)]
+   ECC2-97.seedE      2b354920b724d696e67687561517585ba1332dc8  [Certicom ECC Challenge (1997-11-06)]
+   ECC2-353.seedE     2b354920b724d696e67687561517585ba1332dc6  [Certicom ECC Challenge (1997-11-06)]
+      X9_62_c2tnb359v1 -- ECC2-97.seedE: same-k, 39/40 nibbles equal
+      X9_62_c2tnb359v1 -- ECC2-353.seedE: same-k, 40/40 nibbles equal
+      ECC2-97.seedE -- ECC2-353.seedE: same-k, 39/40 nibbles equal
+COMPONENT docs=cert
+   ECC2-97.seedQ      315ada964d696e67687561517535fa24cbf48397  [Certicom ECC Challenge (1997-11-06)]
+   ECC2-238.seedQ     315ada964d696e67687561517535fa24cbf48396  [Certicom ECC Challenge (1997-11-06)]
+      ECC2-97.seedQ -- ECC2-238.seedQ: same-k, 39/40 nibbles equal
+COMPONENT docs=cert
+   ECC2K-95.seedQ     4d696e67687561517503727226fee987e96a11fc  [Certicom ECC Challenge (1997-11-06)]
+   ECC2-109.seedE     4d696e67687561517503727226fee987e96a11fd  [Certicom ECC Challenge (1997-11-06)]
+   ECC2K-163.seedP    4d696e67687561517503727226fee987e96a11fd  [Certicom ECC Challenge (1997-11-06)]
+      ECC2K-95.seedQ -- ECC2-109.seedE: same-k, 39/40 nibbles equal
+      ECC2K-95.seedQ -- ECC2K-163.seedP: same-k, 39/40 nibbles equal
+      ECC2-109.seedE -- ECC2K-163.seedP: same-k, 40/40 nibbles equal
+COMPONENT docs=cert
+   ECC2-109.seedP     1dd8f2c784d696e676875615175a36ef3f72194e  [Certicom ECC Challenge (1997-11-06)]
+   ECC2K-108.seedP    078ab94284d696e676875615175a36ef3f7298e2  [Certicom ECC Challenge (1997-11-06)]
+   ECC2-353.seedP     1dd8f2c784d696e676875615175a36ef3f721942  [Certicom ECC Challenge (1997-11-06)]
+   ECC2K-358.seedP    91cb22c784d696e676875615175a36ef670d2fb1  [Certicom ECC Challenge (1997-11-06)]
+      ECC2-109.seedP -- ECC2K-108.seedP: same-k, 28/40 nibbles equal
+      ECC2-109.seedP -- ECC2-353.seedP: same-k, 39/40 nibbles equal
+      ECC2-109.seedP -- ECC2K-358.seedP: same-k, 27/40 nibbles equal
+      ECC2K-108.seedP -- ECC2-353.seedP: same-k, 29/40 nibbles equal
+      ECC2K-108.seedP -- ECC2K-358.seedP: same-k, 24/40 nibbles equal
+      ECC2-353.seedP -- ECC2K-358.seedP: same-k, 27/40 nibbles equal
+COMPONENT docs=cert
+   ECC2-109.seedQ     a57c94df4d696e676875615175e8b4864bc74ffb  [Certicom ECC Challenge (1997-11-06)]
+   ECC2K-108.seedQ    176894df4d696e676875615175e8b4864bc74261  [Certicom ECC Challenge (1997-11-06)]
+   ECC2-353.seedQ     a57c94df4d696e676875615175e8b4864bc74ff8  [Certicom ECC Challenge (1997-11-06)]
+   ECC2K-358.seedQ    90fa2bdf4d696e676875615175e8b4864bc74aa5  [Certicom ECC Challenge (1997-11-06)]
+      ECC2-109.seedQ -- ECC2K-108.seedQ: same-k, 33/40 nibbles equal
+      ECC2-109.seedQ -- ECC2-353.seedQ: same-k, 39/40 nibbles equal
+      ECC2-109.seedQ -- ECC2K-358.seedQ: same-k, 31/40 nibbles equal
+      ECC2K-108.seedQ -- ECC2-353.seedQ: same-k, 33/40 nibbles equal
+      ECC2K-108.seedQ -- ECC2K-358.seedQ: same-k, 31/40 nibbles equal
+      ECC2-353.seedQ -- ECC2K-358.seedQ: same-k, 31/40 nibbles equal
+COMPONENT docs=cert
+   ECC2-131.seedP     b55555555554d696e67687561517586aa17bf3f4  [Certicom ECC Challenge (1997-11-06)]
+   ECC2K-130.seedP    092fe1a89014d696e67687561517586aa17bf123  [Certicom ECC Challenge (1997-11-06)]
+      ECC2-131.seedP -- ECC2K-130.seedP: same-k, 26/40 nibbles equal
+COMPONENT docs=cert
+   ECC2-131.seedQ     19d059ffe6124d696e6768756151756506a34421  [Certicom ECC Challenge (1997-11-06)]
+   ECC2K-130.seedQ    328d0ae9e6124d696e6768756151756506a34a25  [Certicom ECC Challenge (1997-11-06)]
+      ECC2-131.seedQ -- ECC2K-130.seedQ: same-k, 30/40 nibbles equal
+COMPONENT docs=cert
+   ECCp-79.seedE      3409c5c7e50ff4d696e67687561517552df2b489  [Certicom ECC Challenge (1997-11-06)]
+   ECCp-109.seedP     2409c5c7e50ff4d696e67687561517552df2b48c  [Certicom ECC Challenge (1997-11-06)]
+      ECCp-79.seedE -- ECCp-109.seedP: same-k, 38/40 nibbles equal
+COMPONENT docs=cert
+   ECCp-79.seedQ      37a5b90a4d696e676875615175d52727640cfca6  [Certicom ECC Challenge (1997-11-06)]
+   ECCp-191.seedP     17a5b90a4d696e676875615175d52727640cfca6  [Certicom ECC Challenge (1997-11-06)]
+      ECCp-79.seedQ -- ECCp-191.seedP: same-k, 39/40 nibbles equal
+COMPONENT docs=cert
+   ECCp-131.seedP     232881dfcf57e4d696e676875615175d990b21a7  [Certicom ECC Challenge (1997-11-06)]
+   ECCp-239.seedP     f32881dfcf57e4d696e676875615175d990b21a7  [Certicom ECC Challenge (1997-11-06)]
+      ECCp-131.seedP -- ECCp-239.seedP: same-k, 39/40 nibbles equal
+COMPONENT docs=cert
+   ECCp-131.seedQ     2773e8f6e4ae54d696e67687561517552ea42393  [Certicom ECC Challenge (1997-11-06)]
+   ECCp-239.seedQ     e773e8f6e4ae54d696e67687561517552ea42392  [Certicom ECC Challenge (1997-11-06)]
+      ECCp-131.seedQ -- ECCp-239.seedQ: same-k, 38/40 nibbles equal
+
+SINGLETONS (45): secp112r1 secp112r2 secp128r1 secp128r2 secp160r1 secp160r2 sect113r1 sect193r1 X9_62_c2tnb191v2 X9_62_c2tnb191v3 X9_62_c2tnb239v2 X9_62_c2tnb239v3 ECC2-79.seedE ECC2-79.seedQ ECC2-89.seedE ECC2-89.seedP ECC2-89.seedQ ECC2-97.seedP ECC2-131.seedE ECC2-163.seedP ECC2-163.seedQ ECC2K-163.seedQ ECC2-191.seedP ECC2-191.seedQ ECC2-238.seedP ECC2K-238.seedP ECC2K-238.seedQ ECCp-79.seedP ECCp-89.seedE ECCp-89.seedP ECCp-89.seedQ ECCp-97.seedE ECCp-97.seedP ECCp-97.seedQ ECCp-109.seedE ECCp-109.seedQ ECCp-131.seedE ECCp-163.seedE ECCp-163.seedP ECCp-163.seedQ ECCp-191.seedE ECCp-191.seedQ ECCp-239.seedE ECCp-359.seedE ECCp-359.seedP

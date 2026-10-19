@@ -1,0 +1,39 @@
+{
+ "notes": "Hex strings. Text parsed from NIST PDFs in raw/fips/. p,q,g for FIPS 186 (1994) were OCR-garbled in the legacy scan, so they are recomputed with scripts/dsa_pqgen.py (App. 2 algorithm using SHA-0 = original FIPS 180 SHA) and match the OCR text; g = 2^((p-1)/q) mod p since h=2. 186-1 and 186-2 text is clean and matches recomputation with SHA-1. Both SEEDs are 160-bit, L=512. 1994 seed differs from 186-1/186-2 seed only in the last byte (bd vs d3), same XSEED/XKEY and KSEED/KKEY.",
+ "fips186_1994_05_19": {
+  "source": "https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub186.pdf (raw/fips/fipspub186-legacy.pdf), Appendix 5",
+  "hash": "SHA-0 (original SHA, FIPS 180)",
+  "L": 512,
+  "SEED": "d5014e4b60ef2ba8b6211b4062ba3224e0427dbd",
+  "counter": 38,
+  "p": "d411a4a0e393f6aab0f08b14d18458665b3e4dbdce2544543fe365cf71c8622412db6e7dd02bbe13d88c58d7263e90236af17ac8a9fe5f249cc81f427fc543f7",
+  "q": "b20db0b101df0c6624fc1392ba55f77d577481e5",
+  "g": "b3085510021f999049a9e7cd3872ce9958186b5007e7adaf25248b58a3dc4f71781d21f2df89b71747bd54b323bbecc443ec1d3e020dadabbf7822578255c104",
+  "h": 2,
+  "XSEED": "bd029bbe7f51960bcf9edb2b61f06f0feb5a38b6",
+  "t_x": "67452301efcdab8998badcfe10325476c3d2e1f0",
+  "KSEED": "687a66d90648f993867e121f4ddf9ddb01205584",
+  "t_k": "efcdab8998badcfe10325476c3d2e1f067452301",
+  "recomputed_ok": true,
+  "note_sha1_on_this_seed": "SHA-1 on the 1994 seed yields no q (confirms SHA-0)"
+ },
+ "fips186-1_1998_and_186-2_2000": {
+  "source": "https://csrc.nist.gov/files/pubs/fips/186-1/final/docs/fips186-1.pdf and fips186-2.pdf, Appendix 5 (identical example)",
+  "hash": "SHA-1",
+  "L": 512,
+  "SEED": "d5014e4b60ef2ba8b6211b4062ba3224e0427dd3",
+  "counter": 105,
+  "p": "8df2a494492276aa3d25759bb06869cbeac0d83afb8d0cf7cbb8324f0d7882e5d0762fc5b7210eafc2e9adac32ab7aac49693dfbf83724c2ec0736ee31c80291",
+  "q": "c773218c737ec8ee993b4f2ded30f48edace915f",
+  "g": "626d027839ea0a13413163a55b4cb500299d5522956cefcb3bff10f399ce2c2e71cb9de5fa24babf58e5b79521925c9cc42e9f6f464b088cc572af53e6d78802",
+  "h": 2,
+  "XKEY": "bd029bbe7f51960bcf9edb2b61f06f0feb5a38b6",
+  "KKEY": "687a66d90648f993867e121f4ddf9ddb01205584",
+  "x": "2070b3223dba372fde1c0ffc7b2e3b498b260614",
+  "k": "358dad571462710f50e254cf1a376b2bdeaadfbf",
+  "y": "19131871d75b1612a819f29d78d1b0d7346f7aa77bb62a859bfd6c5675da9d212d3a36ef1672ef660b8c7c255cc0ec74858fba33f44c06699630a76b030ee333",
+  "recomputed_ok": true,
+  "recomputed_matches_text": true
+ },
+ "fips186-2_ecdsa_appendix6_seeds": "see other_seeds.json -> nist_fips186-2_appendix6"
+}

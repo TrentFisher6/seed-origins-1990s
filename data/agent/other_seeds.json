@@ -1,0 +1,246 @@
+{
+ "notes": "hex strings, lowercase. mq_bitoffset = bit offset (from MSB of the 160-bit seed) of ASCII \"MinghuaQu\" (4d696e6768756151 75); -1 = absent. Seeds in X9.62 section come from OpenSSL 3.0 ec_curve.c (raw/other/openssl_ec_curve.c); OpenSSL/BC carry no seed for the X9.62 curves listed in x962_curves_without_seed_in_openssl (c2pnb*w1 and the v2/v3 curves of the 191/239 families were not published with seeds in these sources; the X9.62 w1 curves are not SHA-1 generated).",
+ "x962_example_curves_with_seed": {
+  "X9_62_PRIME_192V2": {
+   "seed": "31a92ee2029fd10d901b113e990710f0d21ac6b6",
+   "b": "cc22d6dfb95c6b25e49c0d6364a4e5980c393aa21668d953",
+   "a": "fffffffffffffffffffffffffffffffefffffffffffffffc",
+   "p_or_poly": "fffffffffffffffffffffffffffffffeffffffffffffffff",
+   "n": "fffffffffffffffffffffffe5fb1a724dc80418648d8dd31",
+   "Gx": "eea2bae7e1497842f2de7769cfe9c989c072ad696f48034a",
+   "Gy": "6574d11d69b6ec7a672bb82a083df2f2b0847de970b2de15",
+   "cofactor": 1,
+   "mq_bitoffset": -1
+  },
+  "X9_62_PRIME_192V3": {
+   "seed": "c469684435deb378c4b65ca9591e2a5763059a2e",
+   "b": "22123dc2395a05caa7423daeccc94760a7d462256bd56916",
+   "a": "fffffffffffffffffffffffffffffffefffffffffffffffc",
+   "p_or_poly": "fffffffffffffffffffffffffffffffeffffffffffffffff",
+   "n": "ffffffffffffffffffffffff7a62d031c83f4294f640ec13",
+   "Gx": "7d29778100c65a1da1783716588dce2b8b4aee8e228f1896",
+   "Gy": "38a90f22637337334b49dcb66a6dc8f9978aca7648a943b0",
+   "cofactor": 1,
+   "mq_bitoffset": -1
+  },
+  "X9_62_PRIME_239V1": {
+   "seed": "e43bb460f0b80cc0c0b075798e948060f8321b7d",
+   "b": "6b016c3bdcf18941d0d654921475ca71a9db2fb27d1d37796185c2942c0a",
+   "a": "7fffffffffffffffffffffff7fffffffffff8000000000007ffffffffffc",
+   "p_or_poly": "7fffffffffffffffffffffff7fffffffffff8000000000007fffffffffff",
+   "n": "7fffffffffffffffffffffff7fffff9e5e9a9f5d9071fbd1522688909d0b",
+   "Gx": "0ffa963cdca8816ccc33b8642bedf905c3d358573d3f27fbbd3b3cb9aaaf",
+   "Gy": "7debe8e4e90a5dae6e4054ca530ba04654b36818ce226b39fccb7b02f1ae",
+   "cofactor": 1,
+   "mq_bitoffset": -1
+  },
+  "X9_62_PRIME_239V2": {
+   "seed": "e8b4011604095303ca3b8099982be09fcb9ae616",
+   "b": "617fab6832576cbbfed50d99f0249c3fee58b94ba0038c7ae84c8c832f2c",
+   "a": "7fffffffffffffffffffffff7fffffffffff8000000000007ffffffffffc",
+   "p_or_poly": "7fffffffffffffffffffffff7fffffffffff8000000000007fffffffffff",
+   "n": "7fffffffffffffffffffffff800000cfa7e8594377d414c03821bc582063",
+   "Gx": "38af09d98727705120c921bb5e9e26296a3cdcf2f35757a0eafd87b830e7",
+   "Gy": "5b0125e4dbea0ec7206da0fc01d9b081329fb555de6ef460237dff8be4ba",
+   "cofactor": 1,
+   "mq_bitoffset": -1
+  },
+  "X9_62_PRIME_239V3": {
+   "seed": "7d7374168ffe3471b60a857686a19475d3bfa2ff",
+   "b": "255705fa2a306654b1f4cb03d6a750a30c250102d4988717d9ba15ab6d3e",
+   "a": "7fffffffffffffffffffffff7fffffffffff8000000000007ffffffffffc",
+   "p_or_poly": "7fffffffffffffffffffffff7fffffffffff8000000000007fffffffffff",
+   "n": "7fffffffffffffffffffffff7fffff975deb41b3a6057c3c432146526551",
+   "Gx": "6768ae8e18bb92cfcf005c949aa2c6d94853d0e660bbf854b1c9505fe95a",
+   "Gy": "1607e6898f390c06bc1d552bad226f3b6fcfe48b6e818499af18e3ed6cf3",
+   "cofactor": 1,
+   "mq_bitoffset": -1
+  },
+  "X9_62_PRIME_256V1": {
+   "seed": "c49d360886e704936a6678e1139d26b7819f7e90",
+   "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+   "a": "ffffffff00000001000000000000000000000000fffffffffffffffffffffffc",
+   "p_or_poly": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+   "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+   "Gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+   "Gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+   "cofactor": 1,
+   "mq_bitoffset": -1
+  },
+  "X9_62_CHAR2_163V1": {
+   "seed": "d2c0fb15760860def1eef4d696e6768756151754",
+   "b": "00c9517d06d5240d3cff38c74b20b6cd4d6f9dd4d9",
+   "a": "072546b5435234a422e0789675f432c89435de5242",
+   "p_or_poly": "080000000000000000000000000000000000000107",
+   "n": "0400000000000000000001e60fc8821cc74daeafc1",
+   "Gx": "07af69989546103d79329fcc3d74880f33bbe803cb",
+   "Gy": "01ec23211b5966adea1d3f87f7ea5848aef0b7ca9f",
+   "cofactor": 2,
+   "mq_bitoffset": 84
+  },
+  "X9_62_CHAR2_163V2": {
+   "seed": "53814c050d44d696e67687561517580ca4e29ffd",
+   "b": "0667aceb38af4e488c407433ffae4f1c811638df20",
+   "a": "0108b39e77c4b108bed981ed0e890e117c511cf072",
+   "p_or_poly": "080000000000000000000000000000000000000107",
+   "n": "03fffffffffffffffffffdf64de1151adbb78f10a7",
+   "Gx": "0024266e4eb5106d0a964d92c4860e2671db9b6cc5",
+   "Gy": "079f684ddf6684c5cd258b3890021b2386dfd19fc5",
+   "cofactor": 2,
+   "mq_bitoffset": 44
+  },
+  "X9_62_CHAR2_163V3": {
+   "seed": "50cbf1d95ca94d696e676875615175f16a36a3b8",
+   "b": "03f7061798eb99e238fd6f1bf95b48feeb4854252b",
+   "a": "07a526c63d3e25a256a007699f5447e32ae456b50e",
+   "p_or_poly": "080000000000000000000000000000000000000107",
+   "n": "03fffffffffffffffffffe1aee140f110aff961309",
+   "Gx": "02f9f87b7c574d0bdecf8a22e6524775f98cdebdcb",
+   "Gy": "05b935590c155e17ea48eb3ff3718b893df59a05d0",
+   "cofactor": 2,
+   "mq_bitoffset": 48
+  },
+  "X9_62_CHAR2_191V1": {
+   "seed": "4e13ca542744d696e67687561517552f279a8c84",
+   "b": "2e45ef571f00786f67b0081b9495a3d95462f5de0aa185ec",
+   "a": "2866537b676752636a68f56554e12640276b649ef7526267",
+   "p_or_poly": "800000000000000000000000000000000000000000000201",
+   "n": "40000000000000000000000004a20e90c39067c893bbb9a5",
+   "Gx": "36b3daf8a23206f9c4f299d7b21a9c369137f2c84ae1aa0d",
+   "Gy": "765be73433b3f95e332932e70ea245ca2418ea0ef98018fb",
+   "cofactor": 2,
+   "mq_bitoffset": 44
+  },
+  "X9_62_CHAR2_191V2": {
+   "seed": "0871ef2fef24d696e6768756151758bee0d95c15",
+   "b": "0620048d28bcbd03b6249c99182b7c8cd19700c362c46a01",
+   "a": "401028774d7777c7b7666d1366ea432071274f89ff01e718",
+   "p_or_poly": "800000000000000000000000000000000000000000000201",
+   "n": "20000000000000000000000050508cb89f652824e06b8173",
+   "Gx": "3809b2b7cc1b28cc5a87926aad83fd28789e81e2c9e3bf10",
+   "Gy": "17434386626d14f3dbf01760d9213a3e1cf37aec437d668a",
+   "cofactor": 4,
+   "mq_bitoffset": 44
+  },
+  "X9_62_CHAR2_191V3": {
+   "seed": "e053512dc684d696e676875615175067ae786d1f",
+   "b": "71fe1af926cf847989efef8db459f66394d90f32ad3f15e8",
+   "a": "6c01074756099122221056911c77d77e77a777e7e7e77fcb",
+   "p_or_poly": "800000000000000000000000000000000000000000000201",
+   "n": "155555555555555555555555610c0b196812bfb6288a3ea3",
+   "Gx": "375d4ce24fde434489de8746e71786015009e66e38a926dd",
+   "Gy": "545a39176196575d985999366e6ad34ce0a77cd7127b06be",
+   "cofactor": 6,
+   "mq_bitoffset": 44
+  },
+  "X9_62_CHAR2_239V1": {
+   "seed": "d34b9a4d696e676875615175ca71b920bfefb05d",
+   "b": "790408f2eedaf392b012edefb3392f30f4327c0ca3f31fc383c422aa8c16",
+   "a": "32010857077c5431123a46b808906756f543423e8d27877578125778ac76",
+   "p_or_poly": "800000000000000000000000000000000000000000000000001000000001",
+   "n": "2000000000000000000000000000000f4d42ffe1492a4993f1cad666e447",
+   "Gx": "57927098fa932e7c0a96d3fd5b706ef7e5f5c156e16b7e7c86038552e91d",
+   "Gy": "61d8ee5077c33fecf6f1a16b268de469c3c7744ea9a971649fc7a9616305",
+   "cofactor": 4,
+   "mq_bitoffset": 24
+  },
+  "X9_62_CHAR2_239V2": {
+   "seed": "2aa6982fdfa4d696e676875615175d266727277d",
+   "b": "5037ea654196cff0cd82b2c14a2fcf2e3ff8775285b545722f03eacdb74b",
+   "a": "4230017757a767fae42398569b746325d45313af0766266479b75654e65f",
+   "p_or_poly": "800000000000000000000000000000000000000000000000001000000001",
+   "n": "1555555555555555555555555555553c6f2885259c31e3fcdf154624522d",
+   "Gx": "28f9d04e900069c8dc47a08534fe76d2b900b7d7ef31f5709f200c4ca205",
+   "Gy": "5667334c45aff3b5a03bad9dd75e2c71a99362567d5453f7fa6e227ec833",
+   "cofactor": 6,
+   "mq_bitoffset": 44
+  }
+ },
+ "x962_curves_without_seed_in_openssl": [],
+ "x962_prime_curves_lrand48_per_anthropic_2026": "prime192v1(=P-192) 3045ae6f.., prime192v2 31a92ee2029fd10d901b113e990710f0d21ac6b6, prime192v3 c469684435deb378c4b65ca9591e2a5763059a2e, prime239v1 e43bb460f0b80cc0c0b075798e948060f8321b7d, v2 e8b4011604095303ca3b8099982be09fcb9ae616, v3 7d7374168ffe3471b60a857686a19475d3bfa2ff, prime256v1 c49d3608.. (all in x962_example_curves_with_seed or nist list)",
+ "cross_references": {
+  "ECC2-163 (Certicom)": "= X9.62 c2pnb163v1 (same b, seedE d2c0fb15760860def1eef4d696e6768756151754)",
+  "ECC2-191": "= X9.62 c2tnb191v1 (seed 4e13ca542744d696e67687561517552f279a8c84)",
+  "ECC2-238": "= X9.62 c2tnb239v1 (seed d34b9a4d696e676875615175ca71b920bfefb05d)",
+  "ECC2-353": "b equals X9.62 c2tnb359v1 b (2472e2d0...); Certicom seedE 2b354920b724d696e67687561517585ba1332dc6 (BC/OpenSSL carry no seed for c2tnb359v1)",
+  "X9.62 c2pnb163v3 seed 50cbf1d9...a3b8 and v2 53814c05..29ffd": "close relatives (differ by small increments / nibble shifts) of Certicom seedP values (e.g. ECC2K-95 seedP 50cbf1d95ca94d696e676875615175f16a36a3b8 is identical to X9.62 c2pnb163v3 seed; ECC2-79 seedP differs by +7... see below)",
+  "seed reuse inside Certicom challenge": "ECC2-109.seedE == ECC2K-163.seedP; many seeds across different curve sizes differ by +1..+0xc (ECC2-353.seedE = ECC2-97.seedE - 2; ECC2-353.seedP = ECC2-109.seedP - 0xc; ECC2-238.seedQ = ECC2-97.seedQ - 1; ECC2K-95.seedQ = ECC2-109.seedE - 1)"
+ },
+ "wtls_wap_1999_11_05": {
+  "source": "https://cdimage.debian.org/mirror/archive/ftp.sunet.se/pub/security/docs/PCA/TLS/SPEC-WTLS-19991105.pdf Table 8 (raw/other/SPEC-WTLS-19991105.pdf, text raw/other/wtls.txt). This version of the spec lists curve ids 1,3,4,5,6,7,8,9 only (not 2, 10, 11, 12 - those appear in later WTLS versions/OpenSSL; OpenSSL names wtls10/11 = sect233k1/sect233r1 (NIST K-233/B-233), wtls12 = 224-bit prime curve with no seed).",
+  "curves": {
+   "1": {
+    "field": "F2^113",
+    "poly": "x^113+x^9+1",
+    "a": "01",
+    "b": "01",
+    "n": "00ffffffffffffffffdbf91af6dea73",
+    "seed": null,
+    "note": "Koblitz-like, no seed, Basic=No"
+   },
+   "3": {
+    "field": "F2^163",
+    "a": "01",
+    "b": "01",
+    "seed": null,
+    "note": "= sect163k1 / NIST K-163"
+   },
+   "4": {
+    "field": "F2^113",
+    "seed": "10e723ab14d696e6768756151756febf8fcb49a9",
+    "note": "= SEC2 sect113r1; seed contains MinghuaQu"
+   },
+   "5": {
+    "field": "F2^163",
+    "seed": "d2c0fb15760860def1eef4d696e6768756151754",
+    "note": "= X9.62 c2pnb163v1 = Certicom ECC2-163; seed contains MinghuaQu"
+   },
+   "6": {
+    "field": "Fp112",
+    "seed": "00f50b028e4d696e676875615175290472783fb1",
+    "r": "29e49e36f941c1b2dc1fb82b5bce",
+    "note": "= SEC2 secp112r1; seed contains MinghuaQu; WTLS gives both seed S and the hash-derived r"
+   },
+   "7": {
+    "field": "Fp160",
+    "seed": "1053cde42c14d696e67687561517533bf3f83345",
+    "r": "2da6c4d70b90ff912e725e25e90af631c18f0d2f",
+    "note": "p=ffffffffffffffffffffffffffffffff7fffffff, i.e. SEC2 secp160r1 (seed 1053cde4...). OpenSSL maps wtls7 to secp160r2 - appears to be an OpenSSL mislabel (secp160r2 seed is b99b99b0...)"
+   },
+   "8": {
+    "field": "Fp112",
+    "p": "fffffffffffffffffffffffffde7",
+    "a": "0",
+    "b": "3",
+    "seed": null
+   },
+   "9": {
+    "field": "Fp160",
+    "p": "fffffffffffffffffffffffffffffffffffc808f",
+    "a": "0",
+    "b": "3",
+    "seed": null
+   }
+  }
+ },
+ "nist_fips186-2_appendix6": {
+  "source": "raw/fips/fips186-2.pdf (FIPS 186-2, 2000-01-27, App. 6); also in SEC2 v1/v2 as secp192r1 etc. These are the lrand48-derived seeds analysed by Anthropic 2026-10-16.",
+  "prime": {
+   "P-192": "3045ae6fc8422f64ed579528d38120eae12196d5",
+   "P-224": "bd71344799d5c7fcdc45b59fa3b9ab8f6a948bc5",
+   "P-256": "c49d360886e704936a6678e1139d26b7819f7e90",
+   "P-384": "a335926aa319a27a1d00896a6773a4827acdac73",
+   "P-521": "d09e8800291cb85396cc6717393284aaa0da64ba"
+  },
+  "binary": {
+   "B-163": "85e25bfe5c86226cdb12016f7553f9d0e693a268",
+   "B-233": "74d59ff07f6b413d0ea14b344b20a2db049b50c3",
+   "B-283": "77e2b07370eb0f832a6dd5b62dfc88cd06bb84be",
+   "B-409": "4099b5a457f9d69f79213d094c4bcd4d4262210b",
+   "B-571": "2aa058f73a0e33ab486b0f610410c53a7f132310"
+  },
+  "note_B163": "FIPS186-2 gives b for B-163 in both polynomial basis (2 0a601907 ...) and normal basis (6 645f3cac f1638e13 9c6cd13e f61734fb c9e3d9fb). My SHA-1 derivation from the seed reproduces the NORMAL-basis b exactly (0x6645f3cacf1638e139c6cd13ef61734fbc9e3d9fb), so the seed verifies; my SEC2 checker flagged sect163r2/233/283/409/571 as False only because SEC2 prints the polynomial-basis b. Anthropic reports the B-163 seed itself as the one they could not explain."
+ },
+ "ieee_p1363": "No P1363 seeds found online in this session (IEEE P1363 annex A not publicly retrievable; searches only returned FIPS/ISO 15946-5 pages). P1363-2000 Annex A is believed to use X9.62-style SHA-1 seed generation; unverified.",
+ "sec2_v1_2000_text": "see sec2_v1_params.json for all 33 curves, seeds (r-curves), params; sec2_v2_params.json for v2 (2010, 20 curves; the 112/113/128/131/160r/193/... curves were dropped in v2 but seeds for retained curves are unchanged)."
+}

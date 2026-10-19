@@ -1,0 +1,11 @@
+HIT PLANT_msvc_nib:ins lo=16 w=4 S=a7c7c
+HIT PLANT_msvc_nib:suf lo=16 w=4 S=ba4c4
+HIT ECCp-359.seedQ:suf lo=26 w=4 S=158a8769
+HIT X9_62_c2pnb163v2:suf lo=26 w=4 S=158a8769
+HIT ECC2-353.seedE:suf lo=24 w=8 S=31117bec
+HIT ECC2-97.seedE:suf lo=24 w=8 S=31117bec
+HIT X9_62_c2tnb359v1:suf lo=24 w=8 S=31117bec
+HIT secp160r1:suf lo=28 w=4 S=a886ce0d
+HIT ECC2-131.seedP:suf lo=28 w=4 S=70551384
+HIT PLANT_lrand_byte:ins lo=17 w=8 S=dc5101
+HIT secp160r1:pre lo=23 w=8 S=5af6f943

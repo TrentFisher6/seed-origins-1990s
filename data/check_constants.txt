@@ -1,0 +1,13 @@
+SEED94  in FIPS186(1994) True  186-1 False  186-2 False
+SEED1   in FIPS186(1994) False  186-1 True  186-2 True
+XSEED   in FIPS186(1994) True  186-1 True  186-2 True
+KSEED   in FIPS186(1994) True  186-1 True  186-2 True
+1994: counter 38 q in text True p in text (16-hex chunks) False
+186-1: counter 105 q in text True p in text (16-hex chunks) True | in 186-2: True
+x94: G(t,XSEED) mod q = 6b2cd935d0192d54e2c942b574c80102c8f8ef67 printed in doc: True
+k94: G(t,KSEED) mod q = 79577ddcaafddc038b865b19f8eb1ada8a2838c6 printed in doc: True
+x186-1: G(t,XSEED) mod q = 2070b3223dba372fde1c0ffc7b2e3b498b260614 printed in doc: True
+k186-1: G(t,KSEED) mod q = 358dad571462710f50e254cf1a376b2bdeaadfbf printed in doc: True
+SECG MQ seeds (OpenSSL) not found in SEC 2 v1 text: []
+sect163r1 seed in SEC 2 v1 text: True
+Certicom seeds: 66 total, missing from challenge-2009 PDF text: []

@@ -1,0 +1,182 @@
+{
+ "ECC2-79": {
+  "seedE_mq_bitoffset_from_msb": 32,
+  "seedP_mq_bitoffset_from_msb": 48,
+  "seedQ_mq_bitoffset_from_msb": 28,
+  "seedE_ok": true,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2-89": {
+  "seedE_mq_bitoffset_from_msb": 48,
+  "seedP_mq_bitoffset_from_msb": 36,
+  "seedQ_mq_bitoffset_from_msb": 20,
+  "seedE_ok": true,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2-97": {
+  "seedE_mq_bitoffset_from_msb": 44,
+  "seedP_mq_bitoffset_from_msb": 32,
+  "seedQ_mq_bitoffset_from_msb": 32,
+  "seedE_ok": true,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2K-95": {
+  "seedP_mq_bitoffset_from_msb": 48,
+  "seedQ_mq_bitoffset_from_msb": 0,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2-109": {
+  "seedE_mq_bitoffset_from_msb": 0,
+  "seedP_mq_bitoffset_from_msb": 36,
+  "seedQ_mq_bitoffset_from_msb": 32,
+  "seedE_ok": true,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2K-108": {
+  "seedP_mq_bitoffset_from_msb": 36,
+  "seedQ_mq_bitoffset_from_msb": 32,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2-131": {
+  "seedE_mq_bitoffset_from_msb": 32,
+  "seedP_mq_bitoffset_from_msb": 44,
+  "seedQ_mq_bitoffset_from_msb": 48,
+  "seedE_ok": true,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2K-130": {
+  "seedP_mq_bitoffset_from_msb": 44,
+  "seedQ_mq_bitoffset_from_msb": 48,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2-163": {
+  "seedE_mq_bitoffset_from_msb": 84,
+  "seedP_mq_bitoffset_from_msb": 24,
+  "seedQ_mq_bitoffset_from_msb": 48,
+  "seedE_ok": true,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2K-163": {
+  "seedP_mq_bitoffset_from_msb": 0,
+  "seedQ_mq_bitoffset_from_msb": 72,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2-191": {
+  "seedE_mq_bitoffset_from_msb": 44,
+  "seedP_mq_bitoffset_from_msb": 44,
+  "seedQ_mq_bitoffset_from_msb": 40,
+  "seedE_ok": true,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2-238": {
+  "seedE_mq_bitoffset_from_msb": 24,
+  "seedP_mq_bitoffset_from_msb": 44,
+  "seedQ_mq_bitoffset_from_msb": 32,
+  "seedE_ok": true,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2K-238": {
+  "seedP_mq_bitoffset_from_msb": 40,
+  "seedQ_mq_bitoffset_from_msb": 60,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2-353": {
+  "seedE_mq_bitoffset_from_msb": 44,
+  "seedP_mq_bitoffset_from_msb": 36,
+  "seedQ_mq_bitoffset_from_msb": 32,
+  "seedE_ok": true,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECC2K-358": {
+  "seedP_mq_bitoffset_from_msb": 36,
+  "seedQ_mq_bitoffset_from_msb": 32,
+  "seedP_ok": true,
+  "seedQ_ok": true
+ },
+ "ECCp-79": {
+  "seedE_mq_bitoffset_from_msb": 52,
+  "seedP_mq_bitoffset_from_msb": 80,
+  "seedQ_mq_bitoffset_from_msb": 32,
+  "seedE_ok": true,
+  "seedP_matches_x_directly": true,
+  "seedQ_matches_x_directly": true
+ },
+ "ECCp-89": {
+  "seedE_mq_bitoffset_from_msb": 20,
+  "seedP_mq_bitoffset_from_msb": 56,
+  "seedQ_mq_bitoffset_from_msb": 36,
+  "seedE_ok": true,
+  "seedP_matches_x_directly": true,
+  "seedQ_matches_x_directly": true
+ },
+ "ECCp-97": {
+  "seedE_mq_bitoffset_from_msb": 48,
+  "seedP_mq_bitoffset_from_msb": 20,
+  "seedQ_mq_bitoffset_from_msb": 20,
+  "seedE_ok": true,
+  "seedP_matches_x_directly": true,
+  "seedQ_matches_x_directly": true
+ },
+ "ECCp-109": {
+  "seedE_mq_bitoffset_from_msb": 8,
+  "seedP_mq_bitoffset_from_msb": 52,
+  "seedQ_mq_bitoffset_from_msb": 52,
+  "seedE_ok": true,
+  "seedP_matches_x_directly": true,
+  "seedQ_matches_x_directly": true
+ },
+ "ECCp-131": {
+  "seedE_mq_bitoffset_from_msb": 20,
+  "seedP_mq_bitoffset_from_msb": 52,
+  "seedQ_mq_bitoffset_from_msb": 52,
+  "seedE_ok": true,
+  "seedP_matches_x_directly": true,
+  "seedQ_matches_x_directly": true
+ },
+ "ECCp-163": {
+  "seedE_mq_bitoffset_from_msb": 48,
+  "seedP_mq_bitoffset_from_msb": 84,
+  "seedQ_mq_bitoffset_from_msb": 56,
+  "seedE_ok": true,
+  "seedP_matches_x_directly": true,
+  "seedQ_matches_x_directly": true
+ },
+ "ECCp-191": {
+  "seedE_mq_bitoffset_from_msb": 12,
+  "seedP_mq_bitoffset_from_msb": 32,
+  "seedQ_mq_bitoffset_from_msb": 60,
+  "seedE_ok": true,
+  "seedP_matches_x_directly": true,
+  "seedQ_matches_x_directly": true
+ },
+ "ECCp-239": {
+  "seedE_mq_bitoffset_from_msb": 44,
+  "seedP_mq_bitoffset_from_msb": 52,
+  "seedQ_mq_bitoffset_from_msb": 52,
+  "seedE_ok": true,
+  "seedP_matches_x_directly": true,
+  "seedQ_matches_x_directly": true
+ },
+ "ECCp-359": {
+  "seedE_mq_bitoffset_from_msb": 60,
+  "seedP_mq_bitoffset_from_msb": 52,
+  "seedQ_mq_bitoffset_from_msb": 44,
+  "seedE_ok": true,
+  "seedP_matches_x_directly": true,
+  "seedQ_matches_x_directly": true
+ }
+}

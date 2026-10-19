@@ -1,0 +1,22 @@
+ECC2-79    seedP last=1 .1...1.1.1....11  published is first-valid-from-0: True   valid-below=0/1
+ECC2-79    seedQ last=8 ..1.1.1.1.11..1.  published is first-valid-from-0: False   valid-below=3/8
+ECC2-89    seedP last=7 1.1..1.1.1111...  published is first-valid-from-0: False   valid-below=3/7
+ECC2-89    seedQ last=5 ..11.111...111.1  published is first-valid-from-0: False   valid-below=2/5
+ECC2-97    seedP last=2 1.1.......111.11  published is first-valid-from-0: False   valid-below=1/2
+ECC2-97    seedQ last=7 ....11.1.11.1.1.  published is first-valid-from-0: False   valid-below=2/7
+ECC2K-95   seedP last=8 1.11.11111.1..1.  published is first-valid-from-0: False   valid-below=6/8
+ECC2K-95   seedQ last=c 11.1111..11.11.1  published is first-valid-from-0: False   valid-below=8/12
+Traceback (most recent call last):
+  File "scripts/point_scan.py", line 32, in <module>
+    pat = ''.join('1' if pt_valid(c, s[:-1] + h) else '.' for h in '0123456789abcdef')
+  File "scripts/point_scan.py", line 32, in <genexpr>
+    pat = ''.join('1' if pt_valid(c, s[:-1] + h) else '.' for h in '0123456789abcdef')
+                         ~~~~~~~~^^^^^^^^^^^^^^^
+  File "scripts/point_scan.py", line 18, in pt_valid
+    pari(f"g=ffgen({pol},'w)")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "cypari2/pari_instance.pyx", line 800, in cypari2.pari_instance.Pari.__call__
+  File "cypari2/gen.pyx", line 4784, in cypari2.gen.objtogen
+  File "cypari2/convert.pyx", line 545, in cypari2.convert.PyObject_AsGEN
+  File "cypari2/handle_error.pyx", line 211, in cypari2.handle_error._pari_err_handle
+cypari2.handle_error.PariError: ffgen: not an irreducible polynomial in ffgen: y^109 + y^9 + y^2 + 1
